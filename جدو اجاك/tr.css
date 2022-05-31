@@ -1,0 +1,307 @@
+ /*============rest css=============*/
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+     display: block;
+ }
+ body {
+     line-height: 1;
+ }
+ ol, ul {
+     list-style: none;
+ }
+ blockquote, q {
+     quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+     content: '';
+     content: none;
+ }
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ } 
+ /*=======bast styel========*/
+ body{
+     color: #fff;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 18px;
+ }
+ .wrapper{
+     width: 1120px;
+     height: 100%;
+     margin: 0  auto;
+ }
+ /*-----header---------*/
+ .page-header{
+     height: 50px; 
+   
+   
+ }
+ .page-header .logo{
+     float: left;
+     padding-top: 0px;
+     box-sizing: border-box;
+ }
+ .page-header .main-nav{
+     float: right;
+ }
+ .main-nav li{
+     float: right;
+     margin-left: 90px;
+     padding-top: 5px;
+ }
+ .main-nav li a{
+     color:rgb(0, 0, 0);
+     text-transform: uppercase;
+     text-decoration: none;
+     line-height: 45px;
+     padding-top: 15px;
+      
+ }
+ /*-------main---------*/
+ .banner{
+     height: 612;
+     background: url(br.png);
+     background-size: cover;
+ }
+ ul ol{
+     float: left;
+      
+
+ }
+ ul ol input{
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: right;
+ }
+ .logo h1{
+    font-size: 22px;
+     float: right;
+    color: rgb(2, 2, 2);
+    padding-left: 40px;
+    padding-top: 15px;
+
+ }
+ .het{
+     height: 500px;
+     width: 100%;
+     background: url(j2.webp); 
+    margin-top: 0px; 
+    background-size: cover;
+ }
+ .het h1{
+     padding-top: 240px;
+     float: left;
+     margin-left: 60px;
+     color: black;
+     font-size: 30px;
+ }
+ .tx{
+    background-color: rgb(53, 106, 250);
+    height: 400px;
+    width: 50%;
+    float: right;
+    margin-top: 70px;
+    opacity: 0.8 ;
+    margin-right: 40px;
+
+ }
+ .tx h2{
+     color: black;
+     font-size: 25px;
+     text-align: right;
+     padding-top: 30px;
+     padding-right: 30px;
+     
+ }
+ .het h2 input{
+    font-size: 22px;
+    text-align: right;
+    
+    
+    
+    
+}
+
+.het h3 input{
+margin-left: 20px;
+margin-top: 2px;
+font-size: 20px;
+text-align: center;
+ 
+}
+ .tx h4{
+     float: right;
+     margin-right: 40px;
+     margin-top: 15px;
+     font-size: 30px;
+ }
+ .tx h5{
+    padding-left: 310px;
+    padding-top: 20px;
+    font-size: 30px
+}
+.tx h6{
+    padding-left: 210px;
+    padding-top: 15px;
+    font-size: 30px
+}
+.da input{
+    margin-top: 20px;
+    font-size: 32px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.tx h7{
+    padding-left: 440px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.ls input{
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+.ls button{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+   
+   
+    margin-left:40px;
+}
+ 
+.wst h1{
+    padding-top: 30px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.fl h1{
+    padding-top: 30px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+ 
+
+ 
+.last{
+    
+    height: 500px;
+    width: 100%;
+    margin-top: 0px;
+}
+ 
+
+.s2{
+    margin-top: 20px;
+     height: 500px;
+     width: 25%;
+     float: right;
+     box-sizing: border-box;
+}
+.s2 h1{
+    text-decoration-line: underline;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+.s2 ul{
+    padding-top: 25px;
+    text-align: right;
+    padding-right: 40px;
+}
+.s2 ul li {
+    padding-top: 30px;
+}
+.s2 ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+.s3{
+    margin-top: 20px;
+     height: 500px;
+     width: 25%;
+     float: right;
+}
+
+ 
+     
+.s4 h1{
+    text-decoration-line: underline;
+    color: rgb(8, 8, 8);
+    text-align: right;
+    font-size: 30px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+ 
+
+.s4{
+    margin-top: 20px;
+     height: 500px;
+     width: 25%;
+     float: left;
+}
+.s4 h1{
+    text-decoration-line: underline;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 30px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+.s4 ul{
+    padding-top: 25px;
+    text-align: right;
+    padding-right: 40px;
+}
+.s4 ul li {
+    padding-top: 20px;
+}
+.s4 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+    
